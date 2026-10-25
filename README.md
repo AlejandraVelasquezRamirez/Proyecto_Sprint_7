@@ -1,16 +1,24 @@
 # Proyecto del Sprint 7 - Aplicación Web de Anuncios de Coches
 
-## Descripción del proyecto
-Esta aplicación web interactiva ha sido desarrollada utilizando **Streamlit**, **Pandas** y **Plotly** como parte del proyecto del Sprint 7 del bootcamp de Data Science de TripleTen. Su propósito principal es permitir a los usuarios explorar de forma visual e intuitiva un conjunto de datos sobre anuncios de venta de vehículos en Estados Unidos.
+## Enlace a la Aplicación Desplegada
+Puedes acceder a la aplicación web funcionando en producción a través del siguiente enlace en Render:
+- **URL de la App:** [https://proyecto-sprint-7-qr5p.onrender.com/](https://proyecto-sprint-7-qr5p.onrender.com/)
 
-## Funcionalidades
-La aplicación incluye un cuadro de mandos interactivo que cuenta con:
-* **Visualización de Histogramas:** Permite generar gráficos para analizar la distribución de las variables del conjunto de datos (como el odómetro de los vehículos).
-* **Gráficos de Dispersión:** Facilita la exploración de relaciones entre variables (como el precio frente al odómetro).
-* **Interactividad:** Botones dinámicos para activar la creación de los gráficos bajo demanda del usuario.
+---
 
-## Tecnologías utilizadas
-* **Python**
-* **Pandas** (manipulación y análisis de datos)
-* **Plotly** (generación de gráficos interactivos)
-* **Streamlit** (despliegue de la aplicación web)
+## 📋 Descripción del Proyecto
+Esta aplicación web interactiva fue desarrollada utilizando **Streamlit**, **Pandas** y **Plotly**. Su objetivo principal es analizar y visualizar un conjunto de datos sobre anuncios de venta de vehículos en los Estados Unidos, permitiendo a los usuarios explorar la distribución de los datos y la relación entre variables clave mediante una interfaz web intuitiva.
+
+---
+
+## 🗂️ Estructura del Repositorio
+El proyecto está organizado de la siguiente manera:
+```text
+Proyecto_Sprint_7/
+│
+├── notebooks/
+│   └── EDA.ipynb          # Cuaderno con el Análisis Exploratorio de Datos (EDA)
+├── app.py                 # Script principal que ejecuta la aplicación web con Streamlit
+├── vehicles_us.csv        # Dataset original con los anuncios de vehículos
+├── requirements.txt       # Archivo de dependencias y librerías necesarias
+└── README.md              # Documentación y guía del proyecto
